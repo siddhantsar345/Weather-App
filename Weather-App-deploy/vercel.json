@@ -5,5 +5,5 @@
       "src": "weatherapp.html",
       "use": "@vercel/static"
     }
-  ],
+  ]
 }
