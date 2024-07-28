@@ -27,22 +27,22 @@ async function checkWeather(city){
     console.log(weather_data);
 
     switch(weather_data.weather[0].main){
-        case 'Clouds':
-            weather_img.src="./Images/cloud.png";
-            break;
-        case 'Clear':
-            weather_img.src="./Images/clear.png";
-            break;
-        case 'Rain':
-            weather_img.src="./Images/rain.png";
-            break;
-        case 'Mist':
-            weather_img.src="./Images/mist.png";
-            break;
-        case 'Snow':
-            weather_img.src="./Images/snow.png";
-            break;
-    }
+            case 'Clouds':
+                weather_img.src="/PROJECTS/Weather-App/Weather-App-deploy/Images/cloud.png"
+                break;
+            case 'Clear':
+                weather_img.src="/PROJECTS/Weather-App/Weather-App-deploy/Images/clear.png";
+                break;
+            case 'Rain':
+                weather_img.src="/PROJECTS/Weather-App/Weather-App-deploy/Images/rain.png";
+                break;
+            case 'Mist':
+                weather_img.src="/PROJECTS/Weather-App/Weather-App-deploy/Images/mist.png";
+                break;
+            case 'Snow':
+                weather_img.src="/PROJECTS/Weather-App/Weather-App-deploy/Images/snow.png";
+                break;
+        }
    
 }
 
