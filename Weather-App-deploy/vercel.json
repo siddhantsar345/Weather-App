@@ -5,5 +5,23 @@
       "src": "weatherapp.html",
       "use": "@vercel/static"
     },
+    {
+      "src": "weatherapp.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Images/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/weatherapp.css", "dest": "/weatherapp.css" },
+    { "src": "/index.js", "dest": "/index.js" },
+    { "src": "/Images/(.*)", "dest": "/Images/$1" },
+    { "src": "/(.*)", "dest": "/weatherapp.html" }
   ]
 }
