@@ -5,5 +5,8 @@
       "src": "weatherapp.html",
       "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/weatherapp.html" }
   ]
 }
